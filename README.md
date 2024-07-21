@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 <h1>A repository for React.js Projects</h1>
 
 <h3>This repository is a collection of projects that I have built while learning from tutorials. Each project helped me learn new skills and improve my understanding in React.js.</h3>
-=======
+
 <h1>A repo for my React.js projects</h1>
 <p>This repository is a collection of projects that I have built while learning from tutorials. Each project helped me learn new skills and improve my understanding in Reactjs.</p>
 
@@ -24,4 +23,3 @@
   <h6>2. Navigate to the project directory:</h6>
   cd React-Projects
   
->>>>>>> 6942116a6e719cb53000d7450a979de012ea23b2
