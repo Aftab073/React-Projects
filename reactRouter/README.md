@@ -1,8 +1,8 @@
-# React + Vite
+<h2>Project based o Reacter router dom </h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h4>In this project we called Github api and passed the value to our "Github" componet </h4>
 
-Currently, two official plugins are available:
+ The <strong>user component </strong> is not displayed on header, but can be accessed by giving its path in the local host link as /user/(any value- may be strig or number)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
