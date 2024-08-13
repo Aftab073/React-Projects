@@ -8,7 +8,7 @@ import Home from './Components/Home.jsx'
 import About from './Components/About.jsx'
 import Contact from './Components/Contact.jsx'
 import User from './Components/User.jsx'
-import Github from './Components/Github.jsx'
+import Github, { githubInfoLoader } from './Components/Github.jsx'
 
 
 // There are two ways to create the router variable
@@ -41,8 +41,11 @@ const router = createBrowserRouter(
       <Route path='about' element={<About />} />
       <Route path='contact' element={<Contact />} />
       <Route path='user/:userid' element={<User />} /> 
-      <Route path='github' element={<Github />} /> 
-       {/* the id (userid) after : is very important */}
+      {/* the id (userid) after : is very important */}
+      <Route 
+      loader={githubInfoLoader}
+      path='github' 
+      element={<Github />} /> 
     </Route>
   )
 )
